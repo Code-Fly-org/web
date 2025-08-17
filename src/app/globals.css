@@ -13,5 +13,9 @@ h1, h2, h3, p {
 }
 
 .side-gradient {
-  @apply h-screen flex flex-col justify-center bg-gradient-to-r from-purple-900 via-black to-black;
+  @apply w-screen h-screen flex flex-col justify-center bg-gradient-to-r from-purple-900 via-black to-black;
+}
+
+.logo-container {
+  @apply fixed right-30 top-1/2 -translate-y-1/2;
 }
