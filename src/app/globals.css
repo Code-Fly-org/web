@@ -1,1 +1,17 @@
 @import "tailwindcss";
+
+:root {
+  @apply bg-black;
+}
+
+h1, h2, h3, p {
+  @apply text-white;
+}
+
+.side-text {
+  @apply text-4xl ml-5 mt-7 mb-0;
+}
+
+.side-gradient {
+  @apply h-screen flex flex-col justify-center bg-gradient-to-r from-purple-900 via-black to-black;
+}
