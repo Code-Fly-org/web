@@ -1,9 +1,16 @@
 import { Lexend } from 'next/font/google'
 import './globals.css'
+import { Metadata } from 'next'
 
 const lexend = Lexend({
   subsets: ['latin']
 })
+
+export const metadata: Metadata = {
+  icons: {
+    icon: 'https://codefly-repo.lncvrt.xyz/codefly.png'
+  }
+}
 
 export default function RootLayout ({
   children
