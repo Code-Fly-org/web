@@ -17,5 +17,5 @@ h1, h2, h3, p {
 }
 
 .logo-container {
-  @apply fixed right-30 top-1/2 -translate-y-1/2;
+  @apply fixed right-100 top-1/2 -translate-y-1/2;
 }

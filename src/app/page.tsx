@@ -1,6 +1,4 @@
 import { Metadata } from 'next'
-import Image from 'next/image'
-import codefly from './assets/logo.png'
 
 export const metadata: Metadata = {
   title: 'Code Fly - Home'
@@ -17,7 +15,11 @@ export default function Home () {
       </div>
 
       <div className='logo-container'>
-        <Image src={codefly} alt='Code Fly Logo' width={600} height={600} />
+        <div className='absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-[#4400ff] w-100 h-100 rounded-2xl rotate-345'></div>
+        <div className='absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-[#ea00ff] w-100 h-100 rounded-2xl rotate-15'></div>
+        <div className='absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-[#000000] w-70 h-70 rounded-2xl'>
+          <h1 className='absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 !text-[#9900ff] text-5xl whitespace-nowrap'>Code Fly</h1>
+        </div>
       </div>
     </>
   )
