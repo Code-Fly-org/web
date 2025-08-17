@@ -19,3 +19,7 @@ h1, h2, h3, p {
 .logo-container {
   @apply fixed right-100 top-1/2 -translate-y-1/2;
 }
+
+.logo-container div {
+  @apply absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2;
+}
