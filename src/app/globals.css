@@ -8,18 +8,31 @@ h1, h2, h3, p {
   @apply text-white;
 }
 
+.top-side-text {
+  @apply text-4xl ml-5 mt-100 mb-5;
+}
+
 .side-text {
-  @apply text-4xl ml-5 mt-7 mb-0;
+  @apply text-4xl ml-5 mt-200 mb-5;
+}
+
+.side-text-nm {
+  @apply text-4xl ml-5 mt-0 mb-0;
 }
 
 .side-gradient {
-  @apply w-screen h-screen flex flex-col justify-center bg-gradient-to-r from-purple-900 via-black to-black;
+  @apply bg-gradient-to-r from-purple-900 via-black to-black;
+  @apply relative z-10 pt-20 pb-40 w-screen;
 }
 
 .logo-container {
-  @apply fixed right-100 top-1/2 -translate-y-1/2;
+  @apply fixed right-100 top-1/2 -translate-y-1/2 z-20;
 }
 
 .logo-container div {
   @apply absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2;
+}
+
+a {
+  @apply text-[rgb(255,0,255)];
 }
