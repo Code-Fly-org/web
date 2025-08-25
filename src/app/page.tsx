@@ -8,9 +8,9 @@ export default function Home () {
   return (
     <>
       <div className='side-gradient'>
-        <h1 className='top-side-text'>Code Fly is a suite of IDE&apos;s</h1>
+        <h1 className='top-side-text'>Code Fly is a development IDE</h1>
         <h1 className='side-text-nm'>
-          Made as a free alternative to the jetbrains suite
+          Made to have built in support for almost any language
         </h1>
 
         <h1 className='side-text'>
